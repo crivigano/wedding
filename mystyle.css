@@ -37,6 +37,7 @@
 	font-size: 30;
 	text-align: center;
 	margin: 0 auto;
+	text-decoration: none;
 }
 .icon:hover {
 	border: 1px;
@@ -58,6 +59,7 @@
 	margin: 30px;
 	position: relative;
 	border: 3px solid #21130E;
+	text-decoration: none;
 }
 .secondary_button:hover {
 	cursor: pointer;
@@ -179,7 +181,26 @@ form input {
 	color: white;
 }
 a:link {
-    text-decoration: none;
+    color: #C96228;
+}
+a:visited {
+    color: #21130E;
+}
+a:hover {
+    color: #EEC92F;
+}
+#ukflag {
+  background: url('img/uk-flag-bw.png');
+  height: 20px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  /* Optional for a gradual animation effect */
+  transition: 0.5s;
+}
+
+#ukflag:hover {
+  background: url('img/uk-flag.png');
 }
 
 
