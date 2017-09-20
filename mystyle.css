@@ -37,6 +37,11 @@
 	font-size: 30;
 	text-align: center;
 	margin: 0 auto;
+	text-decoration: none;
+}
+.icon:hover {
+	border: 1px;
+	border-color: #EEC92F;
 }
 .button:hover {
 	cursor: pointer;
@@ -49,13 +54,18 @@
 	line-height: 50px;
 	color: white;
 	font-family: "montserrat-light";
-	font-size: 30;
+	font-size: 20px;
 	text-align: center;
-	width: 300px;
-	margin: 0 auto;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin: 30px;
 	position: relative;
+	border: 3px solid #21130E;
+	text-decoration: none;
+}
+.secondary_button:hover {
+	cursor: pointer;
+	background-color: #EEC92F;
+	color: #21130E;
+	border: 3px solid #21130E;
 }
 .service-image {
 	height: 100px;
@@ -64,15 +74,24 @@
 	background: black url(\garden.jpg) center no-repeat;
 	margin-bottom: 5px;
 }
+.info {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
 h1{
 	color: #ffffff;
 	font-family: "great-vibes";
-	font-size: 100px;}
+	font-size: 100px;
+
+}
 h2{
 	color: #C96228;
 	font-family: "montserrat";
 	font-size: 40px;
 	text-align: center;
+	padding-top: 30px;
 }
 h3{
 	color: #333333;
@@ -86,26 +105,48 @@ p {
 	padding-right: 10px;
 	line-height: 150%
 }
+.pfooter {
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+}
+.gifts {
+	font-family: "montserrat";
+	font-size: 18px;
+	color: #333333;
+	padding-right: 10px;
+	line-height: 150%
+}
+link {
+	color: #C96228;
+}
 .intro {
 	font-size: 30px;
 	color: white;
 }
+.footer {
+	background-color: #21130E;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
 .form {
 	background-color: #EEC92F;
-	padding-top: 100px;
+	padding-top: 30px;
 	padding-bottom: 100px;
-	padding-left: 10px;
-	padding-right: 10px;
 	margin-top: 60px;
 	width: 100%;
 }
 
 form {
-	width: 60vw;
+	width: 60%;
 	margin: 0 auto;
 }
 form label {
 	display: block;
+	font-family: "montserrat";
+	font-size: 18px;
+	padding-bottom: 10px;
 }
 form input {
 	width: 100%;
@@ -140,12 +181,88 @@ form input {
 	color: white;
 }
 a:link {
-    text-decoration: none;
+    color: #C96228;
+}
+a:visited {
+    color: #21130E;
+}
+a:hover {
+    color: #EEC92F;
+}
+#ukflag {
+  background: url('img/uk-flag-bw.png');
+  height: 20px;
+  width: 40px;
+  display: block;
+  position: absolute;
+  /* Optional for a gradual animation effect */
+  transition: 0.5s;
+}
+
+#ukflag:hover {
+  background: url('img/uk-flag.png');
 }
 
 
-@media (min-width: 120px) and (max-width: 670px) {
+@media (min-width: 721px) and (max-width: 1020px) {
+	p {
+		font-size: 16px;		
+	}
+	.gifts {
+		font-size: 16px;
+	}
+	h1 {
+		font-size: 80px;
+	}
+	.intro {
+		font-size: 26px;
+	}
+	#header-box {
+		width: 70%;
+	}
+	.button {
+		width: 80%;
+		font-size: 16px;
+	}
+	h2{
+		font-size: 24px;
+	}
+		
+}
 
-	
+@media (min-width: 120px) and (max-width: 720px) {
+	p {
+		font-size: 14px;		
+	}
+	.gifts {
+		font-size: 14px;
+	}
+	h1 {
+		font-size: 46px;
+	}
+	.intro {
+		font-size: 20px;
+	}
+	#header-box {
+		width: 80%;
+	}
+	.button {
+		width: 100%;
+		font-size: 14px;
+	}
+	.secondary_button {
+		font-size: 14px;
+	}
+	form {
+	width: 95%;
+	margin: 0 auto;
+	}
+	h2{
+		font-size: 22px;
+	}
+	.info {
+		max-width: 300px; 
+	}
+		
 }
 
