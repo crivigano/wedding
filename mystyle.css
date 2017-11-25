@@ -2,10 +2,7 @@
     font-family: clare_light;
     src: url(ClaireHandLight.otf);
 }
-@font-face {
-    font-family: great-vibes;
-    src: url(great-vibes/GreatVibes-Regular.otf);
-}
+
 #top-banner {
 	background: black url(img/valmello.jpg) center no-repeat;
 	background-size: cover;
@@ -31,7 +28,7 @@
 	line-height: 50px;
 	width: 40%;
 	border: 3px solid #EEC92F;
-	font-family: "montserrat";
+	font-family: "Montserrat";
 	font-size: 20px;
 	text-align: center;
 	margin: 0 auto;
@@ -51,7 +48,8 @@
 	height: 50px;
 	line-height: 50px;
 	color: white;
-	font-family: "montserrat-light";
+	font-family: "Montserrat";
+	font-weight: 300;
 	font-size: 20px;
 	text-align: center;
 	margin: 30px;
@@ -79,25 +77,25 @@
 }
 h1{
 	color: #ffffff;
-	font-family: "great-vibes";
+	font-family: "Great Vibes";
 	font-size: 100px;
 	padding-top: 80px;
 	padding-bottom: 60px
 }
 h2{
 	color: #C96228;
-	font-family: "montserrat";
+	font-family: "Montserrat";
 	font-size: 40px;
 	text-align: center;
 	padding-top: 30px;
 }
 h3{
 	color: #333333;
-	font-family: "montserrat";
+	font-family: "Montserrat";
 	font-size: 20px;
 }
 p {
-	font-family: "montserrat";
+	font-family: "Montserrat";
 	font-size: 18px;
 	color: #333333;
 	padding-right: 10px;
@@ -109,7 +107,7 @@ p {
 	font-size: 14px;
 }
 .gifts {
-	font-family: "montserrat";
+	font-family: "Montserrat";
 	font-size: 18px;
 	color: #333333;
 	padding-right: 10px;
@@ -139,7 +137,7 @@ form {
 }
 form label {
 	display: block;
-	font-family: "montserrat";
+	font-family: "Montserrat";
 	font-size: 18px;
 	padding-bottom: 10px;
 }
@@ -160,7 +158,7 @@ form input {
 .tel {
 	color: #ffffcc;
 	font-size: 24px;
-	font-family: "montserrat";
+	font-family: "Montserrat";
 	font-weight: lighter;
 	background: url(phone.png) left no-repeat;
 	padding-left: 50px;
@@ -169,7 +167,7 @@ form input {
 .email {
 	color: #ffffcc;
 	font-size: 24px;
-	font-family: "montserrat";
+	font-family: "Montserrat";
 	font-weight: lighter;
 	background: url(mail.png) left no-repeat;
 	padding-left: 50px;
