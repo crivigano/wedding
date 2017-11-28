@@ -11,9 +11,8 @@
 }
 #header-box {
 	background-color: rgba(0,0,0,0.64);
-	padding-top: 10px;
 	width: 100%;
-	padding-bottom: 40px;
+	padding-bottom: 80px;
 	padding-top: 40px;
 	margin: 0 auto;
 	text-align: center;
@@ -39,6 +38,7 @@
 }
 .button:hover {
 	background-color: transparent;
+	text-transform: none;
 	cursor: pointer;
 	color: white;
 	color: #EEC92F;
@@ -74,6 +74,10 @@
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+}
+.contacts {
+	text-align: center;
+	font-size: 24px;
 }
 h1{
 	color: #ffffff;
@@ -126,8 +130,8 @@ p {
 }
 .form {
 	background-color: #EEC92F;
-	padding-top: 30px;
-	padding-bottom: 100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
 	margin-top: 60px;
 }
 
@@ -176,17 +180,16 @@ form input {
 .white {
 	color: white;
 }
-a {
-	text-decoration: none;
-}
 a:link {
     color: #C96228;
+    text-decoration: none;
 }
 a:visited {
     color: #21130E;
 }
 a:hover {
-    color: #EEC92F;
+    color: #C96228;
+    text-decoration: underline;
 }
 #ukflag {
   background: url('img/uk-flag-bw.png');
